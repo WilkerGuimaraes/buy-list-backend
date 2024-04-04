@@ -12,4 +12,4 @@ router.get("/productsList", getProducts);
 
 router.post("/productsList", createProduct);
 
-router.delete("/productsList:id", deleteProduct);
+router.delete("/productsList/:id", deleteProduct);
