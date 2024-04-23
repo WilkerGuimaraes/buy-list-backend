@@ -1,0 +1,13 @@
+###
+GET http://localhost:3335/productsList
+
+###
+POST http://localhost:3335/productsList
+Content-Type: application/json
+
+{
+    "productName": "Sorvete"
+}
+
+###
+DELETE http://localhost:3335/productsList/66271ca41cf1444b9d7349e5
